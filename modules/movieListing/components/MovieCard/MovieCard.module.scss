@@ -1,0 +1,109 @@
+.movieCard {
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  padding: 30px 45px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+
+  .cardImg {
+    width: 65px;
+    margin-right: 10px;
+  }
+
+  .titleDiv,
+  .contentDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .starIcon,
+  .favIcon {
+    color: #ffba00;
+    font-size: 1.1rem;
+  }
+
+  .movieTitle,
+  .movieYear {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  .movieYear {
+    margin-left: 8px;
+    color: #777777;
+    font-weight: 300;
+  }
+
+  .ratingDiv {
+    display: flex;
+    align-items: center;
+  }
+
+  .currentRatingLabel {
+    color: #777777;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 19px;
+    margin-bottom: 0;
+  }
+
+  .voteAverage {
+    font-size: 1.1rem;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+
+  .favoriteText {
+    color: #bebebe;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+
+  .favoriteDiv {
+    cursor: pointer;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+
+  .linkIcon {
+    color: rgb(88, 88, 255);
+    font-size: 1.1rem;
+  }
+}
+
+.favouriteMovie {
+  background-color: rgba(240, 45, 52, 0.1);
+}
+
+@media only screen and (max-width: 770px) {
+  .movieCard {
+    .contentDiv {
+      width: 100%;
+    }
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+      .cardImg {
+        width: 120px;
+      }
+    }
+    .currentRatingLabel {
+      margin-top: 0;
+    }
+    .favoriteDiv {
+      margin-top: 10px;
+    }
+    .movieTitle,
+    .movieYear {
+      font-size: 1rem;
+    }
+  }
+}

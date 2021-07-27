@@ -1,0 +1,29 @@
+.mainDiv {
+  padding: 30px 50px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    p {
+      margin-bottom: 0;
+    }
+    .brandName {
+      color: #f0261a;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    .brandSubtitle {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+
+  .pagination {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+}

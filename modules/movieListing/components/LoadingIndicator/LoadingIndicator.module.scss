@@ -1,0 +1,11 @@
+.loadingDiv {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .loadingIcon {
+    font-size: 50px;
+  }
+}
